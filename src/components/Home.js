@@ -6,7 +6,7 @@ import user from '../img/user.png';
 import logo from '../img/logo.png';
 import logoblack from '../img/log.svg'
 
-export default function Header() {
+export default function Home() {
 
     return(
         <div>  
