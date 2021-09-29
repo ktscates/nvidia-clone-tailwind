@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/nvidia-clone-tailwind/static/css/main.faab5151.chunk.css",
+    "main.js": "/nvidia-clone-tailwind/static/js/main.1c752c8c.chunk.js",
+    "main.js.map": "/nvidia-clone-tailwind/static/js/main.1c752c8c.chunk.js.map",
+    "runtime-main.js": "/nvidia-clone-tailwind/static/js/runtime-main.3e9bfaa7.js",
+    "runtime-main.js.map": "/nvidia-clone-tailwind/static/js/runtime-main.3e9bfaa7.js.map",
+    "static/js/2.50f94cca.chunk.js": "/nvidia-clone-tailwind/static/js/2.50f94cca.chunk.js",
+    "static/js/2.50f94cca.chunk.js.map": "/nvidia-clone-tailwind/static/js/2.50f94cca.chunk.js.map",
+    "index.html": "/nvidia-clone-tailwind/index.html",
+    "static/css/main.faab5151.chunk.css.map": "/nvidia-clone-tailwind/static/css/main.faab5151.chunk.css.map",
+    "static/js/2.50f94cca.chunk.js.LICENSE.txt": "/nvidia-clone-tailwind/static/js/2.50f94cca.chunk.js.LICENSE.txt",
+    "static/media/cart.e74f61ed.png": "/nvidia-clone-tailwind/static/media/cart.e74f61ed.png",
+    "static/media/log.fb1f211d.svg": "/nvidia-clone-tailwind/static/media/log.fb1f211d.svg",
+    "static/media/search.1d92f967.png": "/nvidia-clone-tailwind/static/media/search.1d92f967.png",
+    "static/media/user.ff788981.png": "/nvidia-clone-tailwind/static/media/user.ff788981.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e9bfaa7.js",
+    "static/js/2.50f94cca.chunk.js",
+    "static/css/main.faab5151.chunk.css",
+    "static/js/main.1c752c8c.chunk.js"
+  ]
+}
