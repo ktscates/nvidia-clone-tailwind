@@ -13,16 +13,16 @@ export default function Home() {
                 <div className="bg-white flex justify-around px-5 py-3 border-b-2">
                     <div className="flex justify-between space-x-5">
                         <img className="w-28" src={logo} alt="logo" />
-                        <h1>Products</h1>
-                        <h1>Solutions</h1>
-                        <h1>Industries</h1>
-                        <h1>For You</h1>
+                        <h1 className="hidden lg:block">Products</h1>
+                        <h1 className="hidden lg:block">Solutions</h1>
+                        <h1 className="hidden lg:block">Industries</h1>
+                        <h1 className="hidden lg:block">For You</h1>
                     </div>
                     
                     <div className="flex justify-between space-x-4 uppercase">
-                        <h1>Shop</h1>
-                        <h1>Drivers</h1>
-                        <h1>Support</h1>
+                        <h1 className="hidden lg:block">Shop</h1>
+                        <h1 className="hidden lg:block">Drivers</h1>
+                        <h1 className="hidden lg:block">Support</h1>
                         <img className="w-6" src={search} alt="search" />
                         <img className="w-6" src={cart} alt="cart" />
                         <img className="w-6" src={user} alt="user" />
@@ -30,9 +30,9 @@ export default function Home() {
                 </div>
             </div>
 
-            <h1 className="uppercase text-green-600 text-4xl mx-72 my-20 font-bold">Select your Location</h1>
+            <h1 className="uppercase md:text-3xl text-green-600 text-4xl mx-72 lg:mx-52 mt-20 mb-10 font-semibold xs:mx-0">Select your Location</h1>
             
-            <div className="uppercase mt-20 mx-72">
+            <div className="uppercase lg:mx-52 mx-72 sm:mx-0">
                 <h1 className="text-3xl font-bold">The Americas</h1>
                 <div className="grid grid-cols-4 mt-5 font-light">
                     <div className="space-y-2">
