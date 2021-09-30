@@ -1,5 +1,4 @@
 import React from 'react';
-import bars from '../img/bars.png';
 import search from '../img/search.png';
 import cart from '../img/cart.png';
 import user from '../img/user.png';
