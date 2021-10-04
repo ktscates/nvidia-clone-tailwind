@@ -3,7 +3,9 @@ import search from '../img/search.png';
 import cart from '../img/cart.png';
 import user from '../img/user.png';
 import logo from '../img/logo.png';
-import logoblack from '../img/log.svg'
+import logoblack from '../img/log.svg';
+import banner from '../img/banner.jpg';
+import photo from '../img/video.jpeg';
 
 export default function Home() {
 
@@ -30,111 +32,222 @@ export default function Home() {
                 </div>
             </div>
 
-            <h1 className="uppercase md:text-3xl text-green-600 text-4xl mx-72 lg:mx-52 mt-20 mb-10 font-semibold xs:mx-0">Select your Location</h1>
-            
-            <div className="uppercase lg:mx-52 mx-72 sm:mx-0">
-                <h1 className="text-3xl font-bold">The Americas</h1>
-                <div className="grid grid-cols-4 mt-5 font-light">
-                    <div className="space-y-2">
-                        <h1>Argentina</h1>
-                        <h1>Colombia</h1>
-                    </div>
-
-                    <div className="space-y-2">
-                        <h1>Brasil</h1>
-                        <h1>Mexico</h1>
-                    </div>
-
-                    <div className="space-y-2">
-                        <h1>Canada</h1>
-                        <h1>Peru</h1>
-                    </div>
-
-                    <div className="space-y-2">
-                        <h1>Chile</h1>
-                        <h1>United State</h1>
-                    </div>
-                </div>
-
-                <h1 className="text-3xl font-bold mt-20">Europe</h1>
-                <div className="grid grid-cols-4 mt-5 font-light">
-                    <div className="space-y-2">
-                        <h1>Belgium</h1>
-                        <h1>Germany</h1>
-                        <h1>Israel</h1>
-                        <h1>Poland</h1>
-                        <h1>Finland</h1>
-                        <h1>Rest of Europe</h1>
-                    </div>
-
-                    <div className="space-y-2">
-                        <h1>Belgium</h1>
-                        <h1>Spain</h1>
-                        <h1>Netherlands</h1>
-                        <h1>Russia</h1>
-                        <h1>Sweden</h1>
-                    </div>
-
-                    <div className="space-y-2">
-                        <h1>Czech Republic</h1>
-                        <h1>France</h1>
-                        <h1>Norway</h1>
-                        <h1>Romania</h1>
-                        <h1>Turkey</h1>
-                    </div>
-
-                    <div className="space-y-2">
-                        <h1>Denmark</h1>
-                        <h1>Italy</h1>
-                        <h1>Austria</h1>
-                        <h1>Switzerland</h1>
-                        <h1>United Kingdom</h1>
-                    </div>
-                </div>
-
-                <h1 className="text-3xl font-bold mt-20">Asia</h1>
-                <div className="grid grid-cols-4 mt-5 font-light">
-                    <div className="space-y-2">
-                        <h1>Australia</h1>
-                        <h1>Korea</h1>
-                    </div>
-
-                    <div className="space-y-2">
-                        <h1>China</h1>
-                        <h1>Singapore</h1>
-                    </div>
-
-                    <div className="space-y-2">
-                        <h1>India</h1>
-                        <h1>Taiwan</h1>
-                    </div>
-
-                    <div className="space-y-2">
-                        <h1>Japan</h1>
-                    </div>
-                </div>
-
-                <h1 className="text-3xl font-bold mt-20">Middle East</h1>
-                <div className="grid grid-cols-4 mt-5 font-light mb-10">
-                    <div className="space-y-2">
-                        <h1>Middle East</h1>
-                    </div>
-                </div>
-
+            <div className="bg-gray-100">
                 <div>
-                    <img className="w-36 -mx-6" src={logoblack} alt="black logo" />
-                    <div className="space-x-5 text-sm text-gray-500 capitalize -mt-5 ">
-                        <a href="da">Privacy Policy</a>
-                        <a href="da">Manage My Privacy</a>
-                        <a href="da">Legal</a>
-                        <a href="da">Accessibility</a>
-                        <a href="da">Product Security</a>
-                        <a href="da">Contact</a>
+                    <img className="h-1/5 w-full" src={banner} alt="banner" />
+                </div>
+
+                <h1 className="text-green-700 text-4xl text-center mt-10 uppercase">Shop</h1>
+                <div className="flex justify-around my-10 md:mx-32 p-5 -space-x-96">
+                    <div className="rounded-lg bg-gray-300 shadow-2xl w-60">
+                        <img src={photo} alt="" />
+                        <div className="bg-gray-100 pl-5 py-8 space-y-6">
+                            <h1 className="text-green-500">The Ultimate Play</h1>
+                            <p>GeForce RTX 30 Series</p>
+                        </div>
+                    </div>
+
+                    <div className="rounded-lg bg-gray-300 shadow-2xl w-60">
+                        <img src={photo} alt="" />
+                        <div className="bg-gray-100 pl-5 py-8 space-y-6">
+                            <h1 className="text-green-500">The Ultimate Play</h1>
+                            <p>GeForce RTX 30 Series</p>
+                        </div>
+                    </div>
+
+                    <div className="rounded-lg bg-gray-300 shadow-2xl w-60">
+                        <img src={photo} alt="" />
+                        <div className="bg-gray-100 pl-5 py-8 space-y-6">
+                            <h1 className="text-green-500">The Ultimate Play</h1>
+                            <p>GeForce RTX 30 Series</p>
+                        </div>
+                    </div>
+
+                    <div className="rounded-lg bg-gray-300 shadow-2xl w-60">
+                        <img src={photo} alt="" />
+                        <div className="bg-gray-100 pl-5 py-8 space-y-6">
+                            <h1 className="text-green-500">The Ultimate Play</h1>
+                            <p>GeForce RTX 30 Series</p>
+                        </div>
                     </div>
                 </div>
 
-                <p className="text-xs text-gray-500 capitalize my-3">Copyright &copy; 2021 NVIDIA Corporation</p>
+                <h1 className="text-green-700 text-4xl text-center mt-10 uppercase">Gaming</h1>
+
+                <div className="flex justify-around mt-10 mb-20 md:mx-32 -space-x-96 p-5">
+                    <div className="rounded-lg bg-gray-300 shadow-2xl w-60">
+                        <img src={photo} alt="" />
+                        <div className="bg-gray-100 pl-5 py-8 space-y-6">
+                            <h1 className="text-green-500">The Ultimate Play</h1>
+                            <p>GeForce RTX 30 Series</p>
+                        </div>
+                    </div>
+
+                    <div className="rounded-lg bg-gray-300 shadow-2xl w-60">
+                        <img src={photo} alt="" />
+                        <div className="bg-gray-100 pl-5 py-8 space-y-6">
+                            <h1 className="text-green-500">The Ultimate Play</h1>
+                            <p>GeForce RTX 30 Series</p>
+                        </div>
+                    </div>
+
+                    <div className="rounded-lg bg-gray-300 shadow-2xl w-60">
+                        <img src={photo} alt="" />
+                        <div className="bg-gray-100 pl-5 py-8 space-y-6">
+                            <h1 className="text-green-500">The Ultimate Play</h1>
+                            <p>GeForce RTX 30 Series</p>
+                        </div>
+                    </div>
+
+                    <div className="rounded-lg bg-gray-300 shadow-2xl w-60">
+                        <img src={photo} alt="" />
+                        <div className="bg-gray-100 pl-5 py-8 space-y-6">
+                            <h1 className="text-green-500">The Ultimate Play</h1>
+                            <p>GeForce RTX 30 Series</p>
+                        </div>
+                    </div>
+                </div>
+
+                <h1 className="text-green-700 text-4xl text-center mt-10 uppercase">Latest News</h1>
+
+                <div className="flex justify-around mt-10 mb-20 md:mx-32 -space-x-96 p-5">
+                    <div className="rounded-lg bg-gray-300 shadow-2xl w-60">
+                        <img src={photo} alt="" />
+                        <div className="bg-gray-100 pl-5 py-8 space-y-6">
+                            <h1 className="text-green-500">The Ultimate Play</h1>
+                            <p>GeForce RTX 30 Series</p>
+                        </div>
+                    </div>
+
+                    <div className="rounded-lg bg-gray-300 shadow-2xl w-60">
+                        <img src={photo} alt="" />
+                        <div className="bg-gray-100 pl-5 py-8 space-y-6">
+                            <h1 className="text-green-500">The Ultimate Play</h1>
+                            <p>GeForce RTX 30 Series</p>
+                        </div>
+                    </div>
+
+                    <div className="rounded-lg bg-gray-300 shadow-2xl w-60">
+                        <img src={photo} alt="" />
+                        <div className="bg-gray-100 pl-5 py-8 space-y-6">
+                            <h1 className="text-green-500">The Ultimate Play</h1>
+                            <p>GeForce RTX 30 Series</p>
+                        </div>
+                    </div>
+
+                    <div className="rounded-lg bg-gray-300 shadow-2xl w-60">
+                        <img src={photo} alt="" />
+                        <div className="bg-gray-100 pl-5 py-8 space-y-6">
+                            <h1 className="text-green-500">The Ultimate Play</h1>
+                            <p>GeForce RTX 30 Series</p>
+                        </div>
+                    </div>
+                </div>
+
+                <h1 className="text-green-700 text-4xl text-center mt-10 uppercase">Data Center to Edge</h1>
+
+                <div className="flex justify-around mt-10 mb-20 md:mx-32 -space-x-96 p-5">
+                    <div className="rounded-lg bg-gray-300 shadow-2xl w-60">
+                        <img src={photo} alt="" />
+                        <div className="bg-gray-100 pl-5 py-8 space-y-6">
+                            <h1 className="text-green-500">The Ultimate Play</h1>
+                            <p>GeForce RTX 30 Series</p>
+                        </div>
+                    </div>
+
+                    <div className="rounded-lg bg-gray-300 shadow-2xl w-60">
+                        <img src={photo} alt="" />
+                        <div className="bg-gray-100 pl-5 py-8 space-y-6">
+                            <h1 className="text-green-500">The Ultimate Play</h1>
+                            <p>GeForce RTX 30 Series</p>
+                        </div>
+                    </div>
+
+                    <div className="rounded-lg bg-gray-300 shadow-2xl w-60">
+                        <img src={photo} alt="" />
+                        <div className="bg-gray-100 pl-5 py-8 space-y-6">
+                            <h1 className="text-green-500">The Ultimate Play</h1>
+                            <p>GeForce RTX 30 Series</p>
+                        </div>
+                    </div>
+
+                    <div className="rounded-lg bg-gray-300 shadow-2xl w-60">
+                        <img src={photo} alt="" />
+                        <div className="bg-gray-100 pl-5 py-8 space-y-6">
+                            <h1 className="text-green-500">The Ultimate Play</h1>
+                            <p>GeForce RTX 30 Series</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="bg-black">
+                    <div className="flex justify-around w-full p-5">
+                        <div className=" divide-y-2 divide-white">
+                            <h1 className="text-white text-bold text-2xl mb-3">Corporate Information</h1>
+                            <div className="text-green-400 space-y-3">
+                                <p>About NVIDIA</p>
+                                <p>About NVIDIA</p>
+                                <p>About NVIDIA</p>
+                                <p>About NVIDIA</p>
+                                <p>About NVIDIA</p>
+                                <p>About NVIDIA</p>
+                                <p>About NVIDIA</p>
+                            </div>
+                        </div>
+
+                        <div className=" divide-y-2 divide-white">
+                            <h1 className="text-white text-bold text-2xl mb-3">Get Involved</h1>
+                            <div className="text-green-400 space-y-3">
+                                <p>About NVIDIA</p>
+                                <p>About NVIDIA</p>
+                                <p>About NVIDIA</p>
+                                <p>About NVIDIA</p>
+                                <p>About NVIDIA</p>
+                                <p>About NVIDIA</p>
+                                <p>About NVIDIA</p>
+                                <p>About NVIDIA</p>
+                                <p>About NVIDIA</p>
+                            </div>
+                        </div>
+
+                        <div className=" divide-y-2 divide-white">
+                            <h1 className="text-white text-bold text-2xl mb-3">News & Events</h1>
+                            <div className="text-green-400 space-y-3">
+                                <p>About NVIDIA</p>
+                                <p>About NVIDIA</p>
+                                <p>About NVIDIA</p>
+                                <p>About NVIDIA</p>
+                                <p>About NVIDIA</p>
+                                <p>About NVIDIA</p>
+                                <p>About NVIDIA</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div className="mt-10 flex py-5 text-center space-x-10 ml-60">
+                        <h1 className="text-white mt-3 uppercase text-2xl font-light">Signup for NVIDIA News</h1>
+                        <a className="px-5 py-3 bg-green-400 text-white font-bold" href="s">Subscribe</a>
+                    </div>
+
+                </div>
+
             </div>
+
+
+            <div className="bottom-0 my-8">
+                <img className="w-36" src={logoblack} alt="black logo" />
+                <div className="space-x-5 text-sm text-gray-500 capitalize -mt-5 mx-5">
+                    <a href="da">Privacy Policy</a>
+                    <a href="da">Manage My Privacy</a>
+                    <a href="da">Legal</a>
+                    <a href="da">Accessibility</a>
+                    <a href="da">Product Security</a>
+                    <a href="da">Contact</a>
+                </div>
+            </div>
+
+            <p className="bottom-0 mx-5 text-xs text-gray-500 capitalize my-3">Copyright &copy; 2021 NVIDIA Corporation</p>
         </div>
     )
 }
