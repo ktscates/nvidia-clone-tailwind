@@ -9,6 +9,7 @@ import photo from '../img/video.jpeg';
 
 export default function Home() {
 
+    
     return(
         <div>  
             <div className="fixed w-full top-0">      
