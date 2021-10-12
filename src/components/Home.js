@@ -10,7 +10,7 @@ import photo from '../img/video.jpeg';
 export default function Home() {
 
     return(
-        <div className="">  
+        <div>  
             <div className="fixed w-full top-0">      
                 <div className="bg-white flex justify-around px-5 py-3 border-b-2">
                     <div className="flex justify-between space-x-5">
